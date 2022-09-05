@@ -1,0 +1,2 @@
+#!/bin/bash
+find -name '*.gif' -typef -printf '%f\n' | lc -All=c sort -f |rev | cut -c s- |rev
